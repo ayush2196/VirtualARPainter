@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <title>App - Re - Hand</title>
+    <h2 align="right"> Welcome to AR Virtual Painter </h2>
+    <p align="right"> In this, you can draw anything in air by your hand gesture. Try it! </p>
+</head>
+<body>
+    <img style=" margin-left:350px; padding-top: 30px;" id="bg" width=800px height=500px src="{{ url_for('video_feed') }}">
+<!--    <div class="button-container">-->
+<!--        <form align="center" action="/volumeControl" method="post" enctype="multipart/form-data">-->
+<!--            <div>-->
+<!--                <input class="submitButton" type="submit" value="Hand Gesture Volume Control">-->
+<!--            </div>-->
+<!--        </form>-->
+<!--        <form align="center" action="/arPainter" method="post" enctype="multipart/form-data">-->
+<!--            <div>-->
+<!--                <input class="submitButton" type="submit" value="AR Virtual Painter">-->
+<!--            </div>-->
+<!--        </form>-->
+<!--    </div>-->
+    <footer class="footer-container">
+        <div class="left-col-text">
+            <p>@Copyright 2021. All rights Reserved.</p>
+        </div>
+        <div class="right-col-text">
+            <p>by Ayush Goyal</p>
+        </div>
+    </footer>
+</body>
+</html>
