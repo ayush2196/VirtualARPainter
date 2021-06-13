@@ -1,0 +1,124 @@
+@import "compass/css3";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 5%;
+  background-color: transparent;
+  /* position: fixed; */
+  width: 100%;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+body {
+  background-color: white;
+  background-image: url('img/apprehand.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h2{
+  padding-top: 60px;
+  padding-right: 20px;
+}
+
+p{
+  padding-right: 20px;
+}
+
+.button-container form,
+.button-container form div {
+    display: inline;
+    float: right;
+    padding-right: 170px;
+}
+
+.button-container button {
+    display: inline;
+    vertical-align: middle;
+}
+
+.submitButton,
+.btn
+{
+  margin-top: 15px;
+  padding: 9px 25px;
+  background-color: #367ce5;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+.submitButton:hover,
+.btn:hover
+ {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+/* footer */
+
+footer {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px 20px;
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.left-col {
+  margin-left: 30px;
+}
+
+.left-col a {
+  font-size: 15px;
+  padding-left: 10px;
+  text-align: right;
+}
+
+.left-col img {
+  height: 25px;
+  width: 120px;
+}
+
+.left-col-text {
+ float: left;
+}
+
+.left-col-text p {
+  font-size: 15px;
+  padding-right: 30px;
+}
+
+.right-col-text {
+  float: right;
+}
+
+.right-col-text p {
+  font-size: 15px;
+}
+
