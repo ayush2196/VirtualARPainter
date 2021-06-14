@@ -1,6 +1,5 @@
 import os
 from flask import Flask, render_template, request, send_from_directory, Response
-from gestureVolumeControl import get_frame
 from arPainter import Painter
 
 app = Flask(__name__)
